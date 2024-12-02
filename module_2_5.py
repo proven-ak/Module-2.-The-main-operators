@@ -11,5 +11,5 @@ def get_matrix(n, m, value):                # Объявляем функцию
 
 result = get_matrix(3,                   # Вызов функции
                     5,
-                    0)
+                    42)
 print(result)                               # Вывод результата на консоль
