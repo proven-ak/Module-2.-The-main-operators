@@ -1,13 +1,13 @@
-def get_matrix(n, m, value):
-    matrix = []
-    for i in range(n):
-        row = []
-        for j in range(m):
-            row.append(value)
-        matrix.append(row)
-    return matrix
+def get_matrix(n, m, value):                # Объявляем функцию
+    matrix = []                             # Инициируем пустой список
+    for i in range(n):                      # Перебираем строку
+        row = []                            # Инициируем пустой столбец
+        for j in range(m):                  # Перебираем столбец
+            row.append(value)               # Заполняем столбец значениями
+        matrix.append(row)                  # Заполняем строку столбцами
+    return matrix                           # Возвращаем matrix из функции
 
-result = get_matrix(3,
+result = get_matrix(3,                   # Вызов функции
                     5,
                     42)
-print(result)
+print(result)                               # Вывод результата на консоль
