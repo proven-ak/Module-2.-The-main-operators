@@ -10,7 +10,7 @@ for i in range(1, 20):                      # выбираем 1-е число
         if first_num % (i + j) == 0:        # проверяем делимость
             str_ = str(i) + str(j)          # склеиваем символы 2-х чисел
             pass_list.append(str_)          # создаем список пар
-            result = "".join(pass_list)     # склеиваем список в строку
+            result = "".join(pass_list )    # склеиваем список в строку
 
 print(result)                               # выводим результат на консоль
 
