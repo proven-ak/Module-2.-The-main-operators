@@ -15,5 +15,5 @@ elif second == third:
 else:
     result = 0
 
-# Вывод результата на консоль
+# Вывод результата на консоль!!!
 print(result)
